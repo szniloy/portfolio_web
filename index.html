@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Name - Md Sahiduzzaman Niloy</title>
+    <link rel="icon" type="image/jpeg" href="logo.jpg">
     <style>
         * {
             margin: 0;
@@ -643,48 +644,6 @@
             color: var(--text-secondary);
         }
 
-        .contact-form {
-            background: var(--bg-card);
-            padding: 2rem;
-            border-radius: 20px;
-            border: 1px solid rgba(99, 102, 241, 0.2);
-        }
-
-        .form-group {
-            margin-bottom: 1.5rem;
-        }
-
-        .form-group label {
-            display: block;
-            margin-bottom: 0.5rem;
-            color: var(--text-primary);
-            font-weight: 500;
-        }
-
-        .form-group input,
-        .form-group textarea {
-            width: 100%;
-            padding: 1rem;
-            background: var(--bg-secondary);
-            border: 1px solid rgba(99, 102, 241, 0.3);
-            border-radius: 10px;
-            color: var(--text-primary);
-            font-size: 1rem;
-            transition: all 0.3s ease;
-        }
-
-        .form-group input:focus,
-        .form-group textarea:focus {
-            outline: none;
-            border-color: var(--primary-color);
-            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
-        }
-
-        .form-group textarea {
-            resize: vertical;
-            min-height: 120px;
-        }
-
         /* Footer */
         footer {
             background: var(--bg-secondary);
@@ -907,27 +866,17 @@
                 <h2 class="section-title">About Me</h2>
                 <div class="about-content">
                    <div class="about-text">
-    
                     <p>
-       
-                        With more than 3 years of professional experience in mobile app development, I specialize in 
-       
-                        building high-performance, scalable applications with clean and maintainable architecture. 
-       
+                        With more than 3 years of professional experience in mobile app development, I specialize in
+                        building high-performance, scalable applications with clean and maintainable architecture.
                         I have successfully delivered multiple production-ready apps across various industries.
-   
-   
                     </p>
-   
-                    <p> 
-                         My expertise includes API integration, database management, and performance optimization. 
-                         I focus on writing efficient code and delivering seamless user experiences that align with 
+                    <p>
+                         My expertise includes API integration, database management, and performance optimization.
+                         I focus on writing efficient code and delivering seamless user experiences that align with
                          real business goals.
-   
                     </p>
-
                 </div>
-
                 </div>
                 <div class="skills-section">
                     <h3>Technical Expertise</h3>
@@ -1151,15 +1100,12 @@
                            Built with a clean, scalable architecture, ensuring fast performance, reliability, and an exceptional user experience.
                         </p>
                         <div class="project-tags">
-                              <span class="tag">Kotlin</span>
-                            <span class="tag">Jetpack Compose</span>
-                            <span class="tag">Ktor</span>
-                            <span class="tag">Koin</span>
-                            <span class="tag">KMP</span>
+                              <span class="tag">Java</span>
+                            <span class="tag">XML</span>
+                            <span class="tag">Firebase</span>
                         </div>
                         <div class="project-links">
-                            <a href="javascript:void(0)" onclick="showDemo('ecommerce')">Live Demo</a>
-                            <a href="https://github.com/szniloy/food_app" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a href="https://github.com/szniloy/food_app" target="_blank" rel="noopener noreferrer">Show Demo</a>
                         </div>
                     </div>
 
@@ -1173,15 +1119,12 @@
                         videos, and voice messages.Stay informed with delivery tracking and read receipts for clear communication.
                         Built with a clean, scalable architecture, prioritizing security, performance, and a smooth user experience.
                         <div class="project-tags">
-                             <span class="tag">Kotlin</span>
-                            <span class="tag">Jetpack Compose</span>
-                            <span class="tag">Ktor</span>
-                            <span class="tag">Koin</span>
-                            <span class="tag">KMP</span>
+                             <span class="tag">Java</span>
+                            <span class="tag">XML</span>
+                            <span class="tag">Firebase</span>
                         </div>
                         <div class="project-links">
-                            <a href="javascript:void(0)" onclick="showDemo('book_store')">App Store</a>
-                            <a href="https://github.com/szniloy/app_chat" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a href="https://github.com/szniloy/app_chat" target="_blank" rel="noopener noreferrer">Show Demo</a>
                         </div>
                     </div>
 
@@ -1205,8 +1148,7 @@
                             <span class="tag">KMP</span>
                         </div>
                         <div class="project-links">
-                            <a href="javascript:void(0)" onclick="showDemo('air_ticket_booking_app')">Live Demo</a>
-                            <a href="https://github.com/szniloy/air_ticket_booking_app" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a href="https://github.com/szniloy/air_ticket_booking_app" target="_blank" rel="noopener noreferrer">Show Demo</a>
                         </div>
                     </div>
                 </div>
@@ -1301,25 +1243,6 @@
                             <a href="https://cal.com/szniloy/30min" target="_blank" rel="noopener noreferrer" class="btn btn-primary glow-on-hover">Book a Call</a>
                         </div>
                     </div>
-                    <form class="contact-form" onsubmit="handleFormSubmit(event)">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
-                    </form>
                 </div>
             </div>
         </section>
@@ -1331,14 +1254,14 @@
             <a href="https://github.com/szniloy" target="_blank" rel="noopener noreferrer" title="GitHub">
                 <img src="github.png" alt="GitHub" style="width:24px; height:24px;">
             </a>
-            <a href="https://www.linkedin.com/in/sahiduzzamanniloy/" onclick="openSocial('linkedin')" title="LinkedIn">
+            <a href="https://www.linkedin.com/in/sahiduzzamanniloy/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
                 <img src="linkedin.png" alt="LinkedIn" style="width:24px; height:24px;">
             </a>
-            <a href="https://www.instagram.com/" onclick="openSocial('twitter')" title="Twitter">
-                <img src="instagram.png" alt="Twitter" style="width:24px; height:24px;">
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" title="Instagram">
+                <img src="instagram.png" alt="Instagram" style="width:24px; height:24px;">
             </a>
-            <a href="https://x.com/szniloy" onclick="openSocial('portfolio')" title="Portfolio">
-                <img src="twitter.png" alt="Portfolio" style="width:24px; height:24px;">
+            <a href="https://x.com/szniloy" target="_blank" rel="noopener noreferrer" title="Twitter/X">
+                <img src="twitter.png" alt="Twitter" style="width:24px; height:24px;">
             </a>
         </div>
         <p style="color: var(--text-secondary);">
@@ -1346,5 +1269,19 @@
         </p>
     </div>
 </footer>
-
+    
     <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+
+        // Close mobile menu when a link is clicked
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.querySelector('.nav-links').classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
